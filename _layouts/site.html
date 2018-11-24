@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="/css/styles.css" type="text/css"/>
+    
+</head>
+
+<body>
+    <div class="site">
+        <header class="site-header">
+            <div class="site-branding">
+                <p class="site-title">
+                    {{ site.title }}
+                </p>
+                <p class="site-description">
+                    {{ site.description }}
+                </p>
+            </div>
+            <nav class="navigation main">
+                <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about/">About</a></li>
+                <li><a href="/menu/">Menu</a></li>
+                <li><a href="/recepties/">Recepties</a></li>
+                <li><a href="/contact/">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="site-content">
+            {{ content }}
+        </main>
+        <footer class="site-footer">
+
+        </footer>
+    </div>
+
+</body>
+
+</html>
