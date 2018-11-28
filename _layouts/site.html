@@ -6,39 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ site.title }}</title>
-    <link rel="stylesheet" href="/css/styles.css" type="text/css"/>
-    
+    <link rel="stylesheet" href="/css/styles.css" type="text/css" />
 </head>
 
 <body>
     <div class="site">
         <header class="site-header">
-            <div class="site-branding">
-                <p class="site-title">
-                    {{ site.title }}
-                </p>
-                <p class="site-description">
-                    {{ site.description }}
-                </p>
+            <div class="site-social">
+                <a href="https://www.facebook.com/"><img src="/assets/images/social-media/facebook.png" alt="Facebook"></a>
+                <a href="https://www.twitter.com/"><img src="/assets/images/social-media/twitter.png" alt="Twitter"></a>
+                <a href="https://www.linkedin.com/"><img src="/assets/images/social-media/linkedin.png" alt="Linkedin"></a>
+                <a href="https://www.instagram.com/"><img src="/assets/images/social-media/instagram.png" alt="Instagram"></a>
             </div>
-            <nav class="navigation main">
-                <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/about/">About</a></li>
-                <li><a href="/menu/">Menu</a></li>
-                <li><a href="/recepties/">Recepties</a></li>
-                <li><a href="/contact/">Contact</a></li>
-                </ul>
-            </nav>
+            {% include navigation.html %}
+            <div class="slogan">
+                <p>All we bake, we bake it wite love</p>
+            </div>
         </header>
         <main class="site-content">
             {{ content }}
         </main>
-        <footer class="site-footer">
-
-        </footer>
+        {% include footer.html %}
     </div>
-
 </body>
 
 </html>

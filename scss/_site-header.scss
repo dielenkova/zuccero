@@ -1,0 +1,70 @@
+.site-header {
+    grid-column-start: 1;
+    grid-column-end: 4; 
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height: 100vh;
+    background: url("/assets/images/background-header-home.jpg");
+    background-size: cover; 
+    display: inline-block;
+    .site-social {
+        text-align: right;
+        padding: 1%;
+        img{
+            width: 40px;
+            height: 40px;
+            margin: 0.5%;
+        }
+    } 
+    .site-navigation{
+        display: flex;
+        flex-direction: column;
+        text-align: end;
+        ul{
+            padding: 1.5em;
+        }
+        li{
+            padding: 0.2rem; 
+            display: inline-block;
+            a{
+                text-decoration: none;
+                font-weight: bold;
+                color: var(--primary-color);
+                a:hover, 
+                a:focus{
+                    color: white;
+                    text-decoration: underline;
+                }
+            }
+        }
+        .logo{
+            max-width: 10em;
+            position: absolute; 
+            z-index:1; 
+            top: 2em;
+            left: 2em;
+            // box-shadow: 7px 10px 19px -10px rgba(0,0,0,0.66);
+        }
+        .menu-links{
+            background: var(--secondary-color);
+            opacity: 0.8;
+        }
+    }
+    .slogan{
+        grid-column-start: 1;
+        grid-column-end: 4; 
+        grid-row-start: 3;
+        grid-row-end: 4;
+        color: var(--primary-color);
+        padding: 12rem;
+        text-align: center;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+}
+
+
+
+  
+
+

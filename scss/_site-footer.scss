@@ -1,0 +1,42 @@
+.site-footer {
+    background: var(--dark-color);
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    color: var(--text-color-white); 
+    padding: 2em;
+    .info{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }  
+}
+
+.address, .hours, .contacts, .follow-us{
+    width: 20%;
+    border-right: 1px dashed white;
+    padding: 1em;
+    a{
+        color: var(--text-color-white); 
+    }
+}
+.follow-us{
+    border-right: none;
+}
+.site-social{
+    text-align: center;
+    img{
+        width: 40px;
+        height: 40px;
+        margin: 0.5%;
+    }
+}
+
+
+// strong{
+//     text-align: center;
+// }
+

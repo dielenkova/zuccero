@@ -1,7 +1,13 @@
+@import '../fontawesome/scss/fontawesome';
+@import '../fontawesome/scss/brands';
+@import '../fontawesome/scss/regular';
+@import '../fontawesome/scss/solid';
+
 @import 'variables';
 @import 'reset';
 @import 'typography';
 @import 'layout';
-@import 'navigation';
+@import 'responsive';
 @import 'site-header';
+@import 'site-content';
 @import 'site-footer';

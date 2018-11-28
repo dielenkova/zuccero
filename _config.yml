@@ -1,11 +1,13 @@
 
 title: Zuccero-site
-email: di_elenkova@abv.bg
-description: This is my first web site
+email: www.zuccero@gmail.com
+description: Everything we bake, we bake with love.
 baseurl: "/zuccero" 
 url: "http://zuccero.com"
+destination: docs
 twitter_username: di_elenkova
 github_username:  di_elenkova
+future: true 
 markdown: kramdown
 plugins:
   - jekyll-feed
@@ -19,3 +21,4 @@ exclude:
   - package.json
   - package-lock.json
   - .vscode
+  - docs

@@ -1,0 +1,32 @@
+.site-content {
+    background: var(--primary-color);
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    .new-suggestions{
+        background: green;
+        // grid-column-start: 1;
+        // grid-column-end: 4;
+        // grid-row-start: 3;
+        // grid-row-end: 4;
+    }
+    .clients-opinion{
+        background: orangered;
+    //     grid-column-start: 1;
+    //     grid-column-end: 4;
+    //     grid-row-start: 4;
+    //     grid-row-end: 5;
+    }
+    .our-team{
+        background: pink;
+        // grid-column-start: 1;
+        // grid-column-end: 4;
+        // grid-row-start: 5;
+        // grid-row-end: 6;
+    }
+    .contact-form{
+        width: 80%;
+        text-align: center;
+    }
+}
